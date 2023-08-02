@@ -64,7 +64,7 @@ export const Dashboard = () => {
             FAVORITOS <img src={favoriteIcon} alt="favoriteIcon" />
           </button>
           <button onClick={() => showModal()}>
-            AGREGAR <img src={addIcon} alt="addIcon" />
+            AGREGAR PERSONAJE <img src={addIcon} alt="addIcon" />
           </button>
         </div>
         {isOpenList && (
@@ -93,7 +93,7 @@ export const Dashboard = () => {
               ESTUDIANTES
             </button>
             <div className="space-button"></div>
-            <button onClick={() => filterCharacter("staff")}>STAFF</button>
+            <button onClick={() => filterCharacter("staff")}>PROFESORES</button>
           </div>
         </div>
       </div>
