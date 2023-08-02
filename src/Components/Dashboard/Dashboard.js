@@ -64,7 +64,7 @@ export const Dashboard = () => {
             FAVORITOS <img src={favoriteIcon} alt="favoriteIcon" />
           </button>
           <button onClick={() => showModal()}>
-            AGREGAR <img src={addIcon} alt="addIcon" />
+            AÑADIR PERSONAJE <img src={addIcon} alt="addIcon" />
           </button>
         </div>
         {isOpenList && (
